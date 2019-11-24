@@ -12,5 +12,6 @@ function factorial {
 }
 
 read -p "Please input a value: " value
+#function factorial is called
 result=`factorial $value`
 echo "The factorial of $value is: $result"
