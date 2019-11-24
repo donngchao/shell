@@ -3,3 +3,5 @@
 
 testing=`date`
 echo "The date and time are:$testing"
+machine_hostname=`hostname`
+echo "The hostname of this machine is:$machine_hostname"
